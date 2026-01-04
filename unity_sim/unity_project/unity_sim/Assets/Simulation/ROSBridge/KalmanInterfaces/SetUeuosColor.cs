@@ -6,7 +6,7 @@ namespace ROSBridge.KalmanInterfaces
     public struct SetUeuosColor
     {
         [JsonIgnore]
-        public const string ROSServiceType = "kalman_interfaces/srv/SetUeuosColor";
+        public const string ROSServiceType = "knml_interfaces/srv/SetUeuosColor";
 
         public struct Request
         {

@@ -5,7 +5,7 @@ namespace ROSBridge.KalmanInterfaces
     public struct WheelStates
     {
         [JsonIgnore]
-        public static readonly string ROSMessageType = "kalman_interfaces/msg/WheelStates";
+        public static readonly string ROSMessageType = "knml_interfaces/msg/WheelStates";
 
         [JsonProperty("front_left")]
         public WheelState FrontLeft { get; set; }

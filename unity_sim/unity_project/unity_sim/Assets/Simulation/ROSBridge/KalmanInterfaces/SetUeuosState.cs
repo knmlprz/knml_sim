@@ -6,7 +6,7 @@ namespace ROSBridge.KalmanInterfaces
     public struct SetUeuosState
     {
         [JsonIgnore]
-        public const string ROSServiceType = "kalman_interfaces/srv/SetUeuosState";
+        public const string ROSServiceType = "knml_interfaces/srv/SetUeuosState";
 
         public struct Request
         {

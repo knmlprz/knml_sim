@@ -5,7 +5,7 @@ namespace ROSBridge.KalmanInterfaces
     public struct WheelTemperature
     {
         [JsonIgnore]
-        public static readonly string ROSMessageType = "kalman_interfaces/msg/WheelTemperature";
+        public static readonly string ROSMessageType = "knml_interfaces/msg/WheelTemperature";
 
         [JsonProperty("motor")]
         public float Motor { get; set; }
